@@ -1,3 +1,5 @@
+package com.panpan.walle.app.xishang;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -16,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * @version V1.0.0
  * @company lhfinance.com
  * @package PACKAGE_NAME
- * @className: Main
+ * @className: com.panpan.walle.app.xishang.Main
  * @description: xxxxxxxxx
  * @date 2019/11/4 19:30
  */
