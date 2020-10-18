@@ -1,6 +1,8 @@
 package com.panpan.walle.atguigu;
 
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 /**
  * 1,队列
@@ -10,6 +12,10 @@ import java.util.List;
  */
 public class BlockingQueueDemo {
     public static void main(String[] args) {
-        List list = null;
+        BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<>(3);
+        blockingQueue.add("A");
+        blockingQueue.add("B");
+        blockingQueue.add("C");
+        blockingQueue.add("X");
     }
 }
