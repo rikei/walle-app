@@ -63,12 +63,6 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.bouncycastle</groupId>-->
-<!--            <artifactId>bcprov-jdk15on</artifactId>-->
-<!--            <version>1.46</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
@@ -98,5 +92,6 @@
             <artifactId>javax.el</artifactId>
             <version>2.2.6</version>
         </dependency>
+
     </dependencies>
 </project>
