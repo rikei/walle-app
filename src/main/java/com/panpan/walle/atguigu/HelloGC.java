@@ -1,14 +1,11 @@
 package com.panpan.walle.atguigu;
 
-import java.util.concurrent.TimeUnit;
-
-/**
- * -Xms128m -Xmx4096m -Xss1024k -XX:MetaspaceSize=512m -XX:+PrintCommandLineFlags -XX:+PrintGCDetail -XX:+UseSerialGC
- *
- */
 public class HelloGC {
-    public static void main(String[] args) throws InterruptedException {
-        byte[] b = new byte[20 * 1024 *1024];
-        //TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
+    public static void main(String[] args) {
+        long totalMemory = Runtime.getRuntime().totalMemory();//返回Java虚拟机的内存总量
+        long maxMemroy = Runtime.getRuntime().maxMemory(); //返回java虚拟机试图使用的最大内存量
+
+        System.out.println("Total Memory(-Xms)" + totalMemory + "(字节)," + (totalMemory/(double)1024/1024) + "MB");
+        System.out.println("Max Memory(-Xmx)" + maxMemroy + "(字节)," + (maxMemroy/(double)1024/1024) + "MB");
     }
 }
