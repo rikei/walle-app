@@ -1,5 +1,10 @@
 package com.panpan.walle.atguigu;
 
+/**
+ * -XX:MetaspaceSize=8m -XX:MaxMetaspaceSize=16m
+ *
+ * 查看垃圾收集器
+ */
 public class HelloGC {
     public static void main(String[] args) {
         long totalMemory = Runtime.getRuntime().totalMemory();//返回Java虚拟机的内存总量
