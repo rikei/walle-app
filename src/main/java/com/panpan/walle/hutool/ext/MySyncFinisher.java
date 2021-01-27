@@ -1,7 +1,8 @@
-package cn.hutool.core.thread;
+package com.panpan.walle.hutool.ext;
 
 import cn.hutool.core.exceptions.NotInitedException;
 import cn.hutool.core.exceptions.UtilException;
+import cn.hutool.core.thread.ThreadUtil;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

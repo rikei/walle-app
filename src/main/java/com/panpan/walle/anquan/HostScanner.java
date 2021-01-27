@@ -2,7 +2,8 @@ package com.panpan.walle.anquan;
 
 import cn.hutool.core.net.Ipv4Util;
 import cn.hutool.core.net.NetUtil;
-import cn.hutool.core.thread.MySyncFinisher;
+import com.panpan.walle.hutool.ext.MySyncFinisher;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
